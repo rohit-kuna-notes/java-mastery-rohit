@@ -1,3 +1,5 @@
+package functional;
+
 
 class Student implements Comparable<Student> {
     private String name;

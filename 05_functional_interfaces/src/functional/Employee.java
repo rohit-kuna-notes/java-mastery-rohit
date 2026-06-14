@@ -1,3 +1,5 @@
+package functional;
+
 public class Employee implements Comparable<Employee> {
     private String name;
     private String role;

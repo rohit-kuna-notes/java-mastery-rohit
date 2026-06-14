@@ -1,3 +1,4 @@
+package streams;
 
 import java.util.Arrays;
 import java.util.stream.Stream;
@@ -27,5 +28,5 @@ public class _1CreateStream {
         streamByIterate.forEach(System.out::print);
 
     }
-    
+
 }

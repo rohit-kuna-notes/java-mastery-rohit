@@ -1,3 +1,5 @@
+package streams;
+
 public class Employee {
     private String name;
     private String location;

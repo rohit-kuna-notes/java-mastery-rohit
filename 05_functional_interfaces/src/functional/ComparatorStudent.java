@@ -1,3 +1,5 @@
+package functional;
+
 
 class ComparatorStudent {
     private String name;
