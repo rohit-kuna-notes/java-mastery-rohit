@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 .gen_worksheets.py)",
+      "Bash(cat)",
+      "Bash(python3 /tmp/gen2.py)",
+      "Bash(rm /tmp/gen2.py)",
+      "Bash(mvn -q compile)",
+      "Bash(*)"
+    ]
+  }
+}

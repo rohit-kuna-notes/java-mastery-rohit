@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mastery</groupId>
+    <artifactId>java-mastery-rohit</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--
+    Each numbered module keeps its own src/ folder (see README.md) instead of the
+    standard src/main/java layout, so we register every module's src/ as an
+    additional source root via build-helper-maven-plugin.
+    -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>3.5.0</version>
+                <executions>
+                    <execution>
+                        <id>add-module-sources</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>add-source</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>01_basics/src</source>
+                                <source>02_oop/src</source>
+                                <source>03_generics/src</source>
+                                <source>04_collections/src</source>
+                                <source>05_functional_interfaces/src</source>
+                                <source>06_streams/src</source>
+                                <source>07_exceptions/src</source>
+                                <source>08_io_nio/src</source>
+                                <source>09_concurrency/src</source>
+                                <source>10_jvm_internals/src</source>
+                                <source>11_modern_java/src</source>
+                                <source>12_design_patterns/src</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
