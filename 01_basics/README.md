@@ -20,3 +20,13 @@ Goal is for these to become muscle memory before moving to OOP and beyond.
 - `notes/` — reference notes per subtopic, numbered `_1`, `_2`, ... (`_1_strings.md`, `_2_snippets.md`)
 - `worksheet/` — `.java` files with `// TODO:` markers to practice each subtopic, including a `misc/` subfolder for practice snippets
 - `src/` — completed reference solutions (fill in as worksheets are completed), including a `misc/` subfolder for practice snippets/helper classes
+
+# extras
+- Design method to clean strings "hdn   % hshd ^ 89" -> only alpha chars
+- Phase 1 (For DSA) : POJ + Lambda exp + Functional Interfaces
+- Using Base Java
+- Max in an array
+- Sum of array elements
+- Anonymous class -> lambda expression
+- Integer class most used functions
+- Phase 2 (For Stream based questions) : Streams

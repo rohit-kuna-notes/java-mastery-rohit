@@ -1,10 +1,13 @@
-package functional;
+package comparator_comparable;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.TreeSet;
+
+import comparator_comparable.helpers.Employee;
+import comparator_comparable.helpers.Student;
 
 public class _3ComparableTest {
 

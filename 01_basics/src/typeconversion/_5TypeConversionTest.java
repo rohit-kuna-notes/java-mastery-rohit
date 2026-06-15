@@ -1,6 +1,7 @@
+package typeconversion;
 import java.util.function.DoubleBinaryOperator;
 
-public class _4TypeConversionTest {
+public class _5TypeConversionTest {
     public static void main(String[] args) {
 
         // primitive types

@@ -1,8 +1,10 @@
+package commonlyused;
+
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _1CreateListTest {
+public class CreateListTest {
 
     public static void main(String... args) {
 

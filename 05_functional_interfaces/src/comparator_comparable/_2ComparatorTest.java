@@ -1,9 +1,11 @@
-package functional;
+package comparator_comparable;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
+import comparator_comparable.helpers.ComparatorStudent;
 
 public class _2ComparatorTest {
 

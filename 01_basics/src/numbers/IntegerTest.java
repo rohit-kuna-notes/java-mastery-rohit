@@ -1,4 +1,6 @@
-public class _1IntegerTest {
+package numbers;
+
+public class IntegerTest {
     public static void main(String[] args){
         // A. primitive to Object
         // int to Integer 

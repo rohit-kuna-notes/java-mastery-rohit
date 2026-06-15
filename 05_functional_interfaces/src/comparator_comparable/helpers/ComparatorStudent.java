@@ -1,7 +1,7 @@
-package functional;
+package comparator_comparable.helpers;
 
 
-class ComparatorStudent {
+public class ComparatorStudent {
     private String name;
     private Integer marks;
 

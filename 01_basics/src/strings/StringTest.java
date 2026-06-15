@@ -1,6 +1,8 @@
+package strings;
+
 import java.util.List;
 
-public class _4StringTest {
+public class StringTest {
     public static void main(String[] args){
         // Strings are immutable
 

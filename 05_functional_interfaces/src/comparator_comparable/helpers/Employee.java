@@ -1,4 +1,4 @@
-package functional;
+package comparator_comparable.helpers;
 
 public class Employee implements Comparable<Employee> {
     private String name;

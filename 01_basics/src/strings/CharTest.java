@@ -1,4 +1,6 @@
-public class _3CharTest {
+package strings;
+
+public class CharTest {
     public static void main(String[] args){
         // primitive to Object
         char a1='c';

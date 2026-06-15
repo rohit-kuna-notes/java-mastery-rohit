@@ -1,10 +1,12 @@
+package commonlyused;
+
 import java.util.Map;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
 import java.util.List;
 
-public class _3HashMapTest {
+public class HashMapTest {
     public static void main(String[] args) {
         // Create a HM
         Map<String,Integer> hm1=new HashMap<>();

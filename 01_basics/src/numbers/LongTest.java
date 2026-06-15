@@ -1,4 +1,6 @@
-public class _2LongTest {
+package numbers;
+
+public class LongTest {
     public static void main(String[] args){
         // A. primitive to Object
         // long to Long

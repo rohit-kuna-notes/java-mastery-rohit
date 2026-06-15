@@ -36,15 +36,6 @@ public class _3CollectionsAndStringBuilderRecap {
         // Exception in thread "main" java.lang.NullPointerException
         // at java.base/java.util.Hashtable.put(Hashtable.java:476)
 
-        StringBuilder sb=new StringBuilder();
-        sb.append("Rakesh");
-        sb.append("Khanna");
-        sb.length();
-
-        StringBuffer s2=new StringBuffer();
-        s2.append("Hi");
-        s2.append("hello");
-
-        System.out.println(s2);
+        
     }
 }
