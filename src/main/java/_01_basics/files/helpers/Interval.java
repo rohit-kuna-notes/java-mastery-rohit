@@ -1,0 +1,15 @@
+package _01_basics.files.helpers;
+
+public class Interval {
+    public int start, end;
+
+    public Interval(int start, int end){
+        this.start=start;
+        this.end=end;
+    }
+
+    @Override
+    public String toString(){
+        return this.start+":"+this.end;
+    }
+}
